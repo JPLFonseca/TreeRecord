@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="?android:windowBackground"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/logo_tree_record"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/settings_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/definicoes"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Email do utilizador -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gmail"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Total de árvores registadas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/arvores_registadas"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txt_tree_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <!-- Selecionar idioma -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/idioma"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spinner_language"
+                android:layout_width="150dp"
+                android:layout_height="48dp"
+                android:padding="0dp" />
+        </LinearLayout>
+
+        <!-- Botão Premium -->
+        <Button
+            android:id="@+id/btn_go_premium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tornar-se Premium"
+            android:backgroundTint="#FFD700"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="24dp" />
+
+
+        <!-- Botão logout -->
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terminar_sessao"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

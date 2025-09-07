@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "465987270864",
+    "project_id": "tree-record-db",
+    "storage_bucket": "tree-record-db.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465987270864:android:cbfa914af74b43db5ac6d5",
+        "android_client_info": {
+          "package_name": "com.example.treerecord"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUDEF5il5JpDLUB2B1YZp1L6K8ob5sXg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

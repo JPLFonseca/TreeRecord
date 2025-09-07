@@ -1,0 +1,15 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base da aplicação. Certifique-se de que o colorPrimary está definido. -->
+    <style name="Base.Theme.TreeRecord" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+    </style>
+
+    <style name="Theme.TreeRecord" parent="Base.Theme.TreeRecord" />
+
+
+    <style name="DialogAnimation" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+</resources>

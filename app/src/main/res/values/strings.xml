@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TreeRecord</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="registar">Register</string>
+    <string name="click_to_login">Login</string>
+    <string name="click_to_register">Register</string>
+    <string name="logout">logout</string>
+    <string name="b1">Mark</string>
+    <string name="b2">Stored Trees</string>
+    <string name="b3">All Trees</string>
+    <string name="definicoes">Settings</string>
+    <string name="gmail">email:</string>
+    <string name="arvores_registadas">Trees registered:</string>
+    <string name="versao">Version 1.0</string>
+    <string name="about_info">This app was developed to register trees and track relevant information. Created by João Fonseca as part of the course unit Desenvolvimento de Aplicações Móveis.</string>
+    <string name="voltar">Return</string>
+    <string name="mode">Dark Mode</string>
+    <string name="idioma">Language</string>
+    <string name="terminar_sessao">Logout</string>
+    <string name="informacoes">Info</string>
+    <string name="info_text">Here you can find useful information about using the application, support contacts, or other additional features you may be developing.</string>
+</resources>
